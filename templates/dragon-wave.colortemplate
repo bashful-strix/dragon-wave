@@ -230,6 +230,7 @@ if get(g:, 'dragon_wave_extend_ts', has('nvim'))
   hi! link @conditional           Conditional
   hi! link @exception             Exception
   hi! link @keyword.coroutine     PreProc  
+  hi! link @comment.documentation SpecialComment
 
   hi! link @keyword.import        @include
   hi! link @keyword.conditional   @conditional
