@@ -30,3 +30,9 @@ want to load the theme by default, or `opt` if you want to load it explicitly.
 
 If you prefer to use an external plugin manager, follow the usual instructions
 for that package.
+
+
+## Treesitter
+
+Note that this theme automatically extends and tweaks treesitter highlight
+groups when loaded in neovim.
