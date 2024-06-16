@@ -1,0 +1,130 @@
+; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2
+
+; Colour name        GUI                     Base256     Base16 (optional)
+
+; bg shades
+Color: sumiInk0      #16161D                   ~
+Color: sumiInk1      #181820                   ~
+Color: sumiInk2      #1a1a22                   ~
+Color: sumiInk3      #1f1f28                   ~
+Color: sumiInk4      #2a2a37                   ~
+Color: sumiInk5      #363646                   ~
+Color: sumiInk6      #54546d                   ~
+
+; popup and floats
+Color: waveBlue1     #223249                   ~
+Color: waveBlue2     #2d4f67                   ~
+
+; diff and git
+Color: winterGreen   #2b3328                   ~
+Color: winterYellow  #49443c                   ~
+Color: winterRed     #43242b                   ~
+Color: winterBlue    #252535                   ~
+Color: autumnGreen   #76946a                   ~
+Color: autumnRed     #c34043                   ~
+Color: autumnYellow  #dca561                   ~
+
+; diag
+Color: samuraiRed    #e82424                   ~
+Color: roninYellow   #ff9e3b                   ~
+Color: waveAqua1     #6a9589                   ~
+Color: dragonBlue    #658594                   ~
+
+; fg and comments
+Color: oldWhite      #c8c093                   ~
+Color: fujiWhite     #dcd7ba                   ~
+Color: fujiGray      #727169                   ~
+
+Color: oniViolet     #957fb8                   ~
+Color: oniViolet2    #B8B4D0                   ~
+Color: crystalBlue   #7e9cd8                   ~
+Color: springViolet1 #938aa9                   ~
+Color: springViolet2 #9cabca                   ~
+Color: springBlue    #7fb4ca                   ~
+Color: lightBlue     #a3d4d5                   ~
+Color: waveAqua2     #7aa89f                   ~
+
+Color: waveAqua3     #68ad99                   ~
+Color: waveAqua4     #7aa880                   ~
+Color: waveAqua5     #6caf95                   ~
+
+Color: springGreen   #98bb6c                   ~
+Color: boatYellow1   #938056                   ~
+Color: boatYellow2   #c0a36e                   ~
+Color: boatYellow3   #b0834e                   ~
+Color: carpYellow    #e6c384                   ~
+
+Color: sakuraPink    #d27e99                   ~
+Color: waveRed       #e46876                   ~
+Color: peachRed      #ff5d62                   ~
+Color: surimiOrange  #ffa066                   ~
+Color: katanaGray    #717c7c                   ~
+
+Color: dragonBlack0  #0d0c0c                   ~
+Color: dragonBlack1  #12120f                   ~
+Color: dragonBlack2  #1d1c19                   ~
+Color: dragonBlack3  #181616                   ~
+Color: dragonBlack4  #282727                   ~
+Color: dragonBlack5  #393836                   ~
+Color: dragonBlack6  #625e5a                   ~
+
+Color: dragonWhite   #c5c9c5                   ~
+Color: dragonGreen   #87a987                   ~
+Color: dragonGreen2  #8a9a7b                   ~
+Color: dragonPink    #a292a3                   ~
+Color: dragonOrange  #b6927b                   ~
+Color: dragonOrange2 #b98d7b                   ~
+Color: dragonGray    #a6a69c                   ~
+Color: dragonGray2   #9e9b93                   ~
+Color: dragonGray3   #7a8382                   ~
+Color: dragonBlue2   #8ba4b0                   ~
+Color: dragonViolet  #8992a7                   ~
+Color: dragonRed     #c4746e                   ~
+Color: dragonAqua    #8ea4a2                   ~
+Color: dragonAsh     #737c73                   ~
+Color: dragonTeal    #949fb5                   ~
+Color: dragonTeal2   #B39F67                   ~
+Color: dragonYellow  #c4b28a                   ~
+Color: dragonYellow2 #a99c8b                   ~
+Color: dragonYellow3 #8a9aa3                   ~
+
+Color: lotusInk1     #545464                   ~
+Color: lotusInk2     #43436c                   ~
+Color: lotusGray     #dcd7ba                   ~
+Color: lotusGray2    #716e61                   ~
+Color: lotusGray3    #8a8980                   ~
+Color: lotusWhite0   #d5cea3                   ~
+Color: lotusWhite1   #dcd5ac                   ~
+Color: lotusWhite2   #e5ddb0                   ~
+Color: lotusWhite3   #f2ecbc                   ~
+Color: lotusWhite4   #e7dba0                   ~
+Color: lotusWhite5   #e4d794                   ~
+Color: lotusViolet1  #a09cac                   ~
+Color: lotusViolet2  #766b90                   ~
+Color: lotusViolet3  #c9cbd1                   ~
+Color: lotusViolet4  #624c83                   ~
+Color: lotusBlue1    #c7d7e0                   ~
+Color: lotusBlue2    #b5cbd2                   ~
+Color: lotusBlue3    #9fb5c9                   ~
+Color: lotusBlue4    #4d699b                   ~
+Color: lotusBlue5    #5d57a3                   ~
+Color: lotusGreen    #6f894e                   ~
+Color: lotusGreen2   #6e915f                   ~
+Color: lotusGreen3   #b7d0ae                   ~
+Color: lotusPink     #b35b79                   ~
+Color: lotusOrange   #cc6d00                   ~
+Color: lotusOrange2  #e98a00                   ~
+Color: lotusYellow   #77713f                   ~
+Color: lotusYellow2  #836f4a                   ~
+Color: lotusYellow3  #de9800                   ~
+Color: lotusYellow4  #f9d791                   ~
+Color: lotusRed      #c84053                   ~
+Color: lotusRed2     #d7474b                   ~
+Color: lotusRed3     #e82424                   ~
+Color: lotusRed4     #d9a594                   ~
+Color: lotusAqua     #597b75                   ~
+Color: lotusAqua2    #5e857a                   ~
+Color: lotusTeal1    #4e8ca2                   ~
+Color: lotusTeal2    #6693bf                   ~
+Color: lotusTeal3    #5a7785                   ~
+Color: lotusCyan     #d7e3d8                   ~

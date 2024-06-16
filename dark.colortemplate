@@ -1,0 +1,168 @@
+; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2
+
+; Information {{{
+; Mandatory
+Full name:     Kana
+Short name:    kana
+Author:        Myself <myself@somewhere.org>
+; Optional
+Maintainer:    Myself <myself@somewhere.org>
+Website:       https://me.org
+Description:   Template for dark colorscheme
+License:       Public domain
+; Prefix for options: short name is used if this key is not present:
+; Option Prefix: dark
+; }}}
+
+; Documentation {{{
+; Include: _help.colortemplate
+; }}}
+
+; Common linked groups {{{
+Character         -> String
+Conditional       -> Statement
+CursorColumn      -> Cursor
+CursorLineFold    -> FoldColumn
+CursorLineSign    -> SignColumn
+Debug             -> Special
+Define            -> PreProc
+Float             -> Number
+Ignore            -> NonText
+Include           -> PreProc
+Label             -> Statement
+LineNrAbove       -> LineNr
+LineNrBelow       -> LineNr
+Macro             -> PreProc
+MessageWindow     -> WarningMsg
+PmenuKind         -> Pmenu
+PmenuKindSel      -> PmenuSel
+PmenuExtra        -> Pmenu
+PmenuExtraSel     -> PmenuSel
+PopupNotification -> WarningMsg
+PopupSelected     -> PmenuSel
+PreCondit         -> PreProc
+Question          -> MoreMsg
+Repeat            -> Statement
+SpecialChar       -> Special
+SpecialComment    -> Special
+StatusLineTerm    -> StatusLine
+StatusLineTermNC  -> StatusLineNC
+StorageClass      -> Type
+Structure         -> Type
+Tag               -> Special
+Typedef           -> Type
+VisualNOS         -> Visual
+WildMenu          -> Pmenu
+; See `:help lCursor`
+lCursor           -> Cursor
+CursorIM          -> Cursor
+; }}}
+
+Background: dark
+
+; Colour palette {{{
+Include: _colours.colortemplate
+; }}}
+
+; Terminal colors {{{
+Term colors:         sumiInk0          autumnRed         autumnGreen
+Term colors:         boatYellow2       crystalBlue       oniViolet
+Term colors:         waveAqua1         oldWhite          fujiGray
+Term colors:         samuraiRed        springGreen       carpYellow
+Term colors:         springBlue        springViolet1     waveAqua2
+Term colors:         fujiWhite
+; Term colors:         surimiOrange      peachRed 
+; }}}
+
+; Default highlight groups {{{
+Variant: gui
+#if get(g:, '@kana_transp_bg', 0) && !has('gui_running')
+Variant: 256
+#if get(g:, '@kana_transp_bg', 0)
+Variant: gui 256
+    Normal           fujiWhite         none
+    Terminal         fujiWhite         none
+#else
+    Normal           fujiWhite         sumiInk3
+    Terminal         fujiWhite         sumiInk3
+#endif
+
+; Group              Foreground        Background        Attributes
+ColorColumn          none              sumiInk4
+Conceal              springViolet1     none              bold
+Cursor               sumiInk3          fujiWhite
+CurSearch            fujiWhite         waveBlue2         bold
+CursorLine           none              sumiInk5
+CursorLineNr         roninYellow       sumiInk4          bold
+DiffAdd              none              winterGreen
+DiffChange           none              winterBlue
+DiffDelete           autumnRed         winterRed
+DiffText             none              winterYellow
+Directory            crystalBlue       none
+EndOfBuffer          sumiInk3          none
+ErrorMsg             samuraiRed        none
+FoldColumn           sumiInk6          sumiInk4
+Folded               springViolet1     sumiInk4
+IncSearch            waveBlue1         roninYellow
+LineNr               sumiInk6          sumiInk4
+MatchParen           roninYellow       none              bold
+ModeMsg              roninYellow       none              bold
+MoreMsg              dragonBlue        none
+NonText              sumiInk6          none
+Pmenu                fujiWhite         waveBlue1
+PmenuSbar            none              waveBlue1
+PmenuSel             none              waveBlue2
+PmenuThumb           none              waveBlue2
+QuickFixLine         none              sumiInk4
+Search               fujiWhite         waveBlue2
+SignColumn           springViolet1     sumiInk4
+SpecialKey           springViolet1     none
+SpellBad             none              none              undercurl s=samuraiRed
+SpellCap             none              none              undercurl s=roninYellow
+SpellLocal           none              none              undercurl s=roninYellow
+SpellRare            none              none              undercurl s=roninYellow
+StatusLine           oldWhite          sumiInk0
+StatusLineNC         sumiInk6          sumiInk0
+TabLine              sumiInk0          springViolet1
+TabLineFill          none              sumiInk3
+TabLineSel           oldWhite          sumiInk4
+Title                crystalBlue       none              bold
+VertSplit            sumiInk0          none
+Visual               none              waveBlue1
+WarningMsg           roninYellow       none
+
+debugBreakpoint      springBlue        sumiInk4
+debugPC              none              winterRed
+
+; Other conventional group names (see `:help group-name`)
+Boolean              surimiOrange      none              bold
+Comment              fujiGray          none              italic
+Constant             surimiOrange      none
+Delimiter            springViolet2     none
+Error                samuraiRed        none
+Exception            waveRed           none
+Function             crystalBlue       none
+Identifier           carpYellow        none
+Keyword              oniViolet         none
+Number               sakuraPink        none
+Operator             boatYellow2       none
+PreProc              waveRed           none
+Special              springGreen       none
+Statement            oniViolet         none
+String               springGreen       none
+Todo                 waveBlue1         dragonBlue        bold
+Type                 waveAqua2         none              italic
+Underlined           springBlue        none              underline
+
+; See `:help window-toolbar`
+ToolbarLine          none              sumiInk3
+ToolbarButton        fujiWhite         sumiInk3          bold
+; }}}
+
+; Additional highlight groups {{{
+; Add additional highlight groups here if you want
+; }}}
+
+; B/W variant {{{
+; Include: _bw.colortemplate
+; }}}

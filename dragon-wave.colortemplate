@@ -1,0 +1,244 @@
+; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2
+
+; Information {{{
+; Mandatory
+Full name:     Dragon Wave
+Short name:    dragon_wave
+Author:        Myself <myself@somewhere.org>
+; Optional
+Maintainer:    Myself <myself@somewhere.org>
+Website:       https://me.org
+Description:   Template for dark colorscheme
+License:       Public domain
+Neovim:        yes
+; Prefix for options: short name is used if this key is not present:
+; Option Prefix: dark
+; }}}
+
+; Documentation {{{
+; Include: _help.colortemplate
+; }}}
+
+; Common linked groups {{{
+Conditional       -> Statement
+CursorColumn      -> Cursor
+CursorLineFold    -> FoldColumn
+CursorLineSign    -> SignColumn
+Debug             -> Special
+Float             -> Number
+Ignore            -> NonText
+Label             -> Statement
+LineNrAbove       -> LineNr
+LineNrBelow       -> LineNr
+MessageWindow     -> WarningMsg
+PmenuKind         -> Pmenu
+PmenuKindSel      -> PmenuSel
+PmenuExtra        -> Pmenu
+PmenuExtraSel     -> PmenuSel
+PopupNotification -> WarningMsg
+PopupSelected     -> PmenuSel
+PreCondit         -> PreProc
+Question          -> MoreMsg
+Repeat            -> Statement
+SpecialChar       -> Special
+SpecialComment    -> Special
+StatusLineTerm    -> StatusLine
+StatusLineTermNC  -> StatusLineNC
+StorageClass      -> Type
+Structure         -> Type
+Typedef           -> Type
+VisualNOS         -> Visual
+WildMenu          -> Pmenu
+; See `:help lCursor`
+lCursor           -> Cursor
+CursorIM          -> Cursor
+
+Added             -> DiffAdd
+Changed           -> DiffChange
+Removed           -> DiffDelete
+; }}}
+
+Background: dark
+
+; Colour palette {{{
+Include: _colours.colortemplate
+; }}}
+
+; Terminal colors {{{
+Term colors:         dragonBlack0      autumnRed         autumnGreen
+Term colors:         boatYellow2       crystalBlue       oniViolet
+Term colors:         waveAqua1         oldWhite          fujiGray
+Term colors:         samuraiRed        springGreen       carpYellow
+Term colors:         springBlue        springViolet1     waveAqua2
+Term colors:         fujiWhite
+; Term colors:         surimiOrange      peachRed 
+; }}}
+
+; Default highlight groups {{{
+#if get(g:, 'dragon_wave_transp_bg', 0)
+Variant: gui 256
+    Normal           oldWhite          none
+    Terminal         oldWhite          none
+    StatusLine       oldWhite          dragonBlack5      underline
+    StatusLineNC     dragonGray3       dragonBlack4      underline
+    StatusLineTerm   oldWhite          none              reverse
+    StatusLineTermNC dragonGray3       none              reverse
+#else
+    Normal           oldWhite          dragonBlack3
+    Terminal         oldWhite          dragonBlack3
+    StatusLine       oldWhite          dragonBlack5      underline
+    StatusLineNC     dragonGray3       dragonBlack4      underline
+    StatusLineTerm   oldWhite          dragonBlack0      reverse
+    StatusLineTermNC dragonGray3       dragonBlack0      reverse
+#endif
+
+; Group              Foreground        Background        Attributes
+ColorColumn          none              dragonBlack4
+Conceal              springViolet1     none              bold
+Cursor               dragonBlack3      fujiWhite
+CurSearch            fujiWhite         waveBlue2         bold
+CursorLine           none              dragonBlack5
+CursorLineNr         roninYellow       dragonBlack4      bold
+DiffAdd              none              winterGreen
+DiffChange           none              winterBlue
+DiffDelete           autumnRed         winterRed
+DiffText             none              winterYellow
+Directory            crystalBlue       none
+EndOfBuffer          sumiInk3          none
+ErrorMsg             samuraiRed        none
+FoldColumn           dragonBlack6      dragonBlack4
+Folded               fujiWhite         none              bold
+IncSearch            waveBlue1         roninYellow
+LineNr               dragonGray3       dragonBlack4
+MatchParen           roninYellow       none              bold
+ModeMsg              roninYellow       none              bold
+MoreMsg              dragonBlue        none
+NonText              dragonBlack6      none
+Pmenu                fujiWhite         waveBlue1
+PmenuSbar            none              waveBlue1
+PmenuSel             none              waveBlue2
+PmenuThumb           none              waveBlue2
+QuickFixLine         none              sumiInk4
+Search               fujiWhite         waveBlue2
+SignColumn           springViolet1     dragonBlack4
+SpecialKey           springViolet1     none
+SpellBad             none              none              undercurl s=samuraiRed
+SpellCap             none              none              undercurl s=roninYellow
+SpellLocal           none              none              undercurl s=roninYellow
+SpellRare            none              none              undercurl s=roninYellow
+TabLine              dragonGray3       dragonBlack0      underline
+TabLineFill          none              dragonBlack3      underline
+TabLineSel           oldWhite          dragonBlack4      underline
+Title                crystalBlue       none              bold
+VertSplit            dragonGray3       none
+Visual               none              waveBlue1
+WarningMsg           roninYellow       none
+
+debugBreakpoint      springBlue        dragonBlack4
+debugPC              none              winterRed
+
+; Other conventional group names (see `:help group-name`)
+Boolean              lotusOrange       none              bold
+Character            autumnGreen       none
+Comment              dragonAsh         none              italic
+Constant             surimiOrange      none
+Define               dragonPink        none
+Delimiter            lotusAqua         none
+Error                samuraiRed        none
+Exception            waveRed           none
+Function             autumnYellow      none
+Identifier           carpYellow        none
+Include              dragonViolet      none
+Keyword              dragonRed         none
+Macro                dragonOrange      none
+Number               sakuraPink        none
+Operator             roninYellow       none
+PreProc              lotusRed2         none
+Special              waveAqua4         none
+Statement            boatYellow2       none
+String               springGreen       none
+Tag                  waveAqua2         none
+Todo                 waveBlue1         dragonBlue        bold
+Type                 waveAqua2         none              italic
+Underlined           springBlue        none              underline
+
+; See `:help window-toolbar`
+ToolbarLine          none              sumiInk3
+ToolbarButton        fujiWhite         sumiInk3          bold
+; }}}
+
+; Additional highlight groups {{{
+; Add additional highlight groups here if you want
+
+; term colours
+DWBlack              dragonBlack0      none
+DWRed                autumnRed         none
+DWGreen              autumnGreen       none
+DWYellow             boatYellow2       none
+DWBlue               crystalBlue       none
+DWMagenta            oniViolet         none
+DWCyan               waveAqua1         none
+DWWhite              oldWhite          none
+DWBrightBlack        fujiGray          none
+DWBrightRed          samuraiRed        none
+DWBrightGreen        springGreen       none
+DWBrightYellow       carpYellow        none
+DWBrightBlue         springBlue        none
+DWBrightMagenta      springViolet1     none
+DWBrightCyan         waveAqua2         none
+DWBrightWhite        fujiWhite         none
+
+; italic term colours
+DWBlackItalic         dragonBlack0     none              italic
+DWRedItalic           autumnRed        none              italic
+DWGreenItalic         autumnGreen      none              italic
+DWYellowItalic        boatYellow2      none              italic
+DWBlueItalic          crystalBlue      none              italic
+DWMagentaItalic       oniViolet        none              italic
+DWCyanItalic          waveAqua1        none              italic
+DWWhiteItalic         oldWhite         none              italic
+DWBrightBlackItalic   fujiGray         none              italic
+DWBrightRedItalic     samuraiRed       none              italic
+DWBrightGreenItalic   springGreen      none              italic
+DWBrightYellowItalic  carpYellow       none              italic
+DWBrightBlueItalic    springBlue       none              italic
+DWBrightMagentaItalic springViolet1    none              italic
+DWBrightCyanItalic    waveAqua2        none              italic
+DWBrightWhiteItalic   fujiWhite        none              italic
+
+; }}}
+
+; B/W variant {{{
+; Include: _bw.colortemplate
+; }}}
+
+; #if get(g:, 'dragon_wave_ts', 1)
+auxfile after/plugin/@shortname.vim
+if has('nvim')
+  hi! link @namespace             PreProc
+  hi! link @include               Include
+  hi! link @constant.builtin      Boolean
+  hi! link @parameter             Define
+  hi! link @property              Normal
+  hi! link @field                 Normal
+  hi! link @punctuation.delimiter Operator
+  hi! link @punctuation.special   Operator
+  hi! link @variable.builtin      Macro
+  hi! link @function.builtin      Macro
+  hi! link @keyword.return        Operator
+  hi! link @tag.builtin           Macro  
+  hi! link @tag.delimiter         PreProc
+  hi! link @tag.attribute         Define 
+  hi! link @variable              Identifier
+  hi! link @conditional           Conditional
+  hi! link @exception             Exception
+  hi! link @keyword.coroutine     PreProc  
+
+  hi! link @keyword.import        @include
+  hi! link @keyword.conditional   @conditional
+  hi! link @keyword.exception     @exception
+  hi! link @module                @namespace
+  hi! link @variable.parameter    @parameter
+  hi! link @variable.member       @field
+endif
+endauxfile
