@@ -40,7 +40,7 @@ PreCondit         -> PreProc
 Question          -> MoreMsg
 Repeat            -> Statement
 SpecialChar       -> Special
-SpecialComment    -> Special
+; SpecialComment    -> Special
 StatusLineTerm    -> StatusLine
 StatusLineTermNC  -> StatusLineNC
 StorageClass      -> Type
@@ -153,6 +153,7 @@ Number               sakuraPink        none
 Operator             roninYellow       none
 PreProc              lotusRed2         none
 Special              waveAqua4         none
+SpecialComment       dragonYellow2     none              italic
 Statement            boatYellow2       none
 String               springGreen       none
 Tag                  waveAqua2         none
