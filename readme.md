@@ -34,5 +34,5 @@ for that package.
 
 ## Treesitter
 
-Note that this theme automatically extends and tweaks treesitter highlight
-groups when loaded in neovim.
+Note that this theme extends and tweaks treesitter highlight groups when loaded
+by default. See `:help dragon_wave` if you would like to disable this feature.
