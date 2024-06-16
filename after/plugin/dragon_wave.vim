@@ -1,4 +1,4 @@
-if get(g:, 'dragon_wave_extend_ts', 1)
+if get(g:, 'dragon_wave_extend_ts', has('nvim'))
   hi! link @namespace             PreProc
   hi! link @include               Include
   hi! link @constant.builtin      Boolean
