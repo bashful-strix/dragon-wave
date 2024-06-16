@@ -23,7 +23,7 @@ purple rather than a blue or yellow).
 ## Install
 
 Recommended approach is to use neo/vim's built-in plugin manager (see
-(:help package)[https://vimhelp.org/repeat.txt.html#packages]). Simply
+[:help package](https://vimhelp.org/repeat.txt.html#packages)). Simply
 clone/download this repository to `pack/<name>/<start|opt>/dragon-wave`, where
 `<name>` can be whatever you like, and `<start|opt>` should be `start` if you
 want to load the theme by default, or `opt` if you want to load it explicitly.
