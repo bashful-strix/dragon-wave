@@ -4,11 +4,10 @@
 ; Mandatory
 Full name:     Dragon Wave
 Short name:    dragon_wave
-Author:        Myself <myself@somewhere.org>
+Author:        bashful_strix <19427075+bashful-strix@users.noreply.github.com>
 ; Optional
-Maintainer:    Myself <myself@somewhere.org>
-Website:       https://me.org
-Description:   Template for dark colorscheme
+Maintainer:    bashful_strix <19427075+bashful-strix@users.noreply.github.com>
+Description:   Template for dark colorscheme based on kanagawa dragon theme
 License:       Public domain
 Neovim:        yes
 ; Prefix for options: short name is used if this key is not present:
@@ -71,7 +70,6 @@ Term colors:         waveAqua1         oldWhite          fujiGray
 Term colors:         samuraiRed        springGreen       carpYellow
 Term colors:         springBlue        springViolet1     waveAqua2
 Term colors:         fujiWhite
-; Term colors:         surimiOrange      peachRed 
 ; }}}
 
 ; Default highlight groups {{{
