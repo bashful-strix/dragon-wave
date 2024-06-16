@@ -1,0 +1,19 @@
+*dragon_wave.txt*	For Vim version 9.1	Last change: 2024 Jun 16
+
+
+		  Dragon Wave color scheme    by bashful_strix
+
+Dragon Wave, a color scheme based on the kanagawa dragon theme.
+
+==============================================================================
+Color scheme options					dragon_wave-options*
+
+						*g:dragon_wave_transp_bg*
+Set to 1 if you want a transparent background. Takes effect only in the
+terminal.
+>
+	let g:dragon_wave_transp_bg = 0
+<
+
+ vim:tw=78:ts=8:noet:ft=help:norl:
+

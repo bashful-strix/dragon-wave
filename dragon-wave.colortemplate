@@ -15,7 +15,7 @@ Neovim:        yes
 ; }}}
 
 ; Documentation {{{
-; Include: _help.colortemplate
+Include: _help.colortemplate
 ; }}}
 
 ; Common linked groups {{{
