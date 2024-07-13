@@ -222,6 +222,8 @@ if get(g:, 'dragon_wave_extend_ts', has('nvim'))
   hi! link @punctuation.special   Operator
   hi! link @variable.builtin      Macro
   hi! link @function.builtin      Macro
+  hi! link @constant.macro        Macro
+  hi! link @function.macro        Macro
   hi! link @keyword.return        Operator
   hi! link @tag.builtin           Macro  
   hi! link @tag.delimiter         PreProc
