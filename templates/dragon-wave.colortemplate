@@ -145,14 +145,14 @@ Error                samuraiRed        none
 Exception            waveRed           none
 Function             autumnYellow      none
 Identifier           carpYellow        none
-Include              dragonViolet      none
+Include              oniViolet         none
 Keyword              dragonRed         none
 Macro                dragonOrange      none
 Number               sakuraPink        none
 Operator             roninYellow       none
 PreProc              lotusRed2         none
 Special              waveAqua4         none
-SpecialComment       dragonYellow      none              italic
+SpecialComment       lotusViolet2      none              italic
 Statement            boatYellow2       none
 String               springGreen       none
 Tag                  waveAqua2         none
