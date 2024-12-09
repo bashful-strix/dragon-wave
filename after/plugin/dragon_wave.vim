@@ -26,5 +26,6 @@ if get(g:, 'dragon_wave_extend_ts', has('nvim'))
   hi! link @keyword.exception     @exception
   hi! link @module                @namespace
   hi! link @variable.parameter    @parameter
-  hi! link @variable.member       @field
+  " hi! link @variable.member       @field
+  hi! link @variable.member       Label
 endif
