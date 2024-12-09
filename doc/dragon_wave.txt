@@ -1,4 +1,4 @@
-*dragon_wave.txt*	For Vim version 9.1	Last change: 2024 Dec 04
+*dragon_wave.txt*	For Vim version 9.1	Last change: 2024 Dec 09
 
 
 		  Dragon Wave color scheme    by bashful_strix
