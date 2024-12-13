@@ -26,7 +26,7 @@ CursorLineSign    -> SignColumn
 Debug             -> Special
 Float             -> Number
 Ignore            -> NonText
-; Label             -> Statement
+Label             -> Statement
 LineNrAbove       -> LineNr
 LineNrBelow       -> LineNr
 MessageWindow     -> WarningMsg
@@ -145,11 +145,8 @@ Error                samuraiRed        none
 Exception            waveRed           none
 Function             autumnYellow      none
 Identifier           carpYellow        none
-Include              dragonViolet2       none
+Include              dragonViolet2     none
 Keyword              dragonRed         none
-
-Label                dragonYellow2     none
-
 Macro                dragonOrange      none
 Number               sakuraPink        none
 Operator             roninYellow       none
@@ -242,7 +239,6 @@ if get(g:, 'dragon_wave_extend_ts', has('nvim'))
   hi! link @keyword.exception     @exception
   hi! link @module                @namespace
   hi! link @variable.parameter    @parameter
-  " hi! link @variable.member       @field
-  hi! link @variable.member       Label
+  hi! link @variable.member       @field
 endif
 endauxfile
