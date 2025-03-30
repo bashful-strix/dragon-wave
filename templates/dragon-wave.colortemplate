@@ -54,6 +54,11 @@ CursorIM          -> Cursor
 Added             -> DiffAdd
 Changed           -> DiffChange
 Removed           -> DiffDelete
+
+DiagnosticVirtualLinesError -> DiagnosticVirtualTextError
+DiagnosticVirtualLinesWarn  -> DiagnosticVirtualTextWarn
+DiagnosticVirtualLinesInfo  -> DiagnosticVirtualTextInfo
+DiagnosticVirtualLinesHint  -> DiagnosticVirtualTextHint
 ; }}}
 
 Background: dark
@@ -168,6 +173,26 @@ ToolbarButton        fujiWhite         sumiInk3          bold
 ; Additional highlight groups {{{
 ; Add additional highlight groups here if you want
 
+DiagnosticError      autumnRed         none
+DiagnosticWarn       boatYellow2       none
+DiagnosticInfo       crystalBlue       none
+DiagnosticHint       waveAqua1         none
+
+DiagnosticVirtualTextError senpouRed    none
+DiagnosticVirtualTextWarn  senpouYellow none
+DiagnosticVirtualTextInfo  senpouBlue   none
+DiagnosticVirtualTextHint  senpouAqua   none
+
+DiagnosticVirtualLinesError senpouRed    none
+DiagnosticVirtualLinesWarn  senpouYellow none
+DiagnosticVirtualLinesInfo  senpouBlue   none
+DiagnosticVirtualLinesHint  senpouAqua   none
+
+DiagnosticUnderlineError none          none              underline s=autumnRed
+DiagnosticUnderlineWarn  none          none              underline s=boatYellow2
+DiagnosticUnderlineInfo  none          none              underline s=crystalBlue
+DiagnosticUnderlineHint  none          none              underline s=waveAqua1
+
 ; term colours
 DWBlack              dragonBlack0      none
 DWRed                autumnRed         none
@@ -203,7 +228,6 @@ DWBrightBlueItalic    springBlue       none              italic
 DWBrightMagentaItalic springViolet1    none              italic
 DWBrightCyanItalic    waveAqua2        none              italic
 DWBrightWhiteItalic   fujiWhite        none              italic
-
 ; }}}
 
 ; B/W variant {{{

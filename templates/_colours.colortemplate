@@ -24,6 +24,12 @@ Color: autumnGreen   #76946a                   ~
 Color: autumnRed     #c34043                   ~
 Color: autumnYellow  #dca561                   ~
 
+; diagnostic
+Color: senpouRed     #83444b                   ~
+Color: senpouYellow  #69643c                   ~
+Color: senpouBlue    #354585                   ~
+Color: senpouAqua    #2a6569                   ~
+
 ; diag
 Color: samuraiRed    #e82424                   ~
 Color: roninYellow   #ff9e3b                   ~
