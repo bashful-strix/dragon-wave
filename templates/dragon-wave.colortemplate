@@ -96,7 +96,7 @@ Variant: gui 256
 
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              dragonBlack4
-Conceal              springViolet1     none              bold
+Conceal              dragonGreen       dragonBlack4      bold
 Cursor               dragonBlack3      fujiWhite
 CurSearch            fujiWhite         waveBlue2         bold
 CursorLine           none              dragonBlack5
@@ -112,7 +112,7 @@ FoldColumn           dragonBlack6      dragonBlack4
 Folded               fujiWhite         none              bold
 IncSearch            waveBlue1         roninYellow
 LineNr               dragonGray3       dragonBlack4
-MatchParen           roninYellow       none              bold
+MatchParen           peachRed          none              bold
 ModeMsg              roninYellow       none              bold
 MoreMsg              dragonBlue        none
 NonText              dragonBlack6      none
@@ -123,7 +123,7 @@ PmenuThumb           none              waveBlue2
 QuickFixLine         none              sumiInk4
 Search               fujiWhite         waveBlue2
 SignColumn           springViolet1     dragonBlack4
-SpecialKey           springViolet1     none
+SpecialKey           lotusOrange       none
 SpellBad             none              none              undercurl s=samuraiRed
 SpellCap             none              none              undercurl s=roninYellow
 SpellLocal           none              none              undercurl s=roninYellow
@@ -140,9 +140,9 @@ debugBreakpoint      springBlue        dragonBlack4
 debugPC              none              winterRed
 
 ; Other conventional group names (see `:help group-name`)
-Boolean              lotusOrange       none              bold
+Boolean              roninYellow       none              bold
 Character            autumnGreen       none
-Comment              dragonAsh         none              italic
+Comment              lotusGray2        none              italic
 Constant             surimiOrange      none
 Define               dragonPink        none
 Delimiter            lotusAqua         none
@@ -154,10 +154,10 @@ Include              dragonViolet2     none
 Keyword              dragonRed         none
 Macro                dragonOrange      none
 Number               sakuraPink        none
-Operator             roninYellow       none
+Operator             lotusOrange2      none
 PreProc              lotusRed2         none
 Special              waveAqua4         none
-SpecialComment       lotusGray2        none              italic
+SpecialComment       dragonAsh         none              italic
 Statement            boatYellow2       none
 String               springGreen       none
 Tag                  waveAqua2         none
@@ -242,7 +242,7 @@ if get(g:, 'dragon_wave_extend_ts', has('nvim'))
   hi! link @parameter             Define
   hi! link @property              Normal
   hi! link @field                 Normal
-  hi! link @punctuation.delimiter Operator
+  hi! link @punctuation.delimiter SpecialKey
   hi! link @punctuation.special   Operator
   hi! link @variable.builtin      Macro
   hi! link @function.builtin      Macro

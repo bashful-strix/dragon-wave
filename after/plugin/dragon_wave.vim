@@ -5,7 +5,7 @@ if get(g:, 'dragon_wave_extend_ts', has('nvim'))
   hi! link @parameter             Define
   hi! link @property              Normal
   hi! link @field                 Normal
-  hi! link @punctuation.delimiter Operator
+  hi! link @punctuation.delimiter SpecialKey
   hi! link @punctuation.special   Operator
   hi! link @variable.builtin      Macro
   hi! link @function.builtin      Macro
