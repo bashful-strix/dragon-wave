@@ -123,7 +123,7 @@ PmenuThumb           none              waveBlue2
 QuickFixLine         none              sumiInk4
 Search               fujiWhite         waveBlue2
 SignColumn           springViolet1     dragonBlack4
-SpecialKey           lotusOrange       none
+SpecialKey           lotusOrange2      none
 SpellBad             none              none              undercurl s=samuraiRed
 SpellCap             none              none              undercurl s=roninYellow
 SpellLocal           none              none              undercurl s=roninYellow
@@ -154,7 +154,7 @@ Include              dragonViolet2     none
 Keyword              dragonRed         none
 Macro                dragonOrange      none
 Number               sakuraPink        none
-Operator             lotusOrange2      none
+Operator             lotusOrange       none
 PreProc              lotusRed2         none
 Special              waveAqua4         none
 SpecialComment       dragonAsh         none              italic
