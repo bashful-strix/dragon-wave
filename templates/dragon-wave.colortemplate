@@ -78,7 +78,6 @@ Term colors:         fujiWhite
 
 ; Default highlight groups {{{
 #if get(g:, 'dragon_wave_transp_bg', 0)
-Variant: gui 256
     Normal           oldWhite          none
     Terminal         oldWhite          none
     StatusLine       oldWhite          dragonBlack5      underline
@@ -112,7 +111,7 @@ FoldColumn           dragonBlack6      dragonBlack4
 Folded               fujiWhite         none              bold
 IncSearch            waveBlue1         roninYellow
 LineNr               dragonGray3       dragonBlack4
-MatchParen           peachRed          none              bold
+MatchParen           peachRed          none              bold underline
 ModeMsg              roninYellow       none              bold
 MoreMsg              dragonBlue        none
 NonText              dragonBlack6      none
