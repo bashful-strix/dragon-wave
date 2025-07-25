@@ -26,10 +26,6 @@ hi! link Label Statement
 hi! link LineNrAbove LineNr
 hi! link LineNrBelow LineNr
 hi! link MessageWindow WarningMsg
-hi! link PmenuKind Pmenu
-hi! link PmenuKindSel PmenuSel
-hi! link PmenuExtra Pmenu
-hi! link PmenuExtraSel PmenuSel
 hi! link PopupNotification WarningMsg
 hi! link PopupSelected PmenuSel
 hi! link PreCondit PreProc
@@ -111,9 +107,13 @@ hi ModeMsg guifg=#ff9e3b guibg=NONE gui=bold cterm=bold
 hi MoreMsg guifg=#658594 guibg=NONE gui=NONE cterm=NONE
 hi NonText guifg=#625e5a guibg=NONE gui=NONE cterm=NONE
 hi Pmenu guifg=#dcd7ba guibg=#223249 gui=NONE cterm=NONE
-hi PmenuSbar guifg=NONE guibg=#223249 gui=NONE cterm=NONE
 hi PmenuSel guifg=NONE guibg=#2d4f67 gui=NONE cterm=NONE
-hi PmenuThumb guifg=NONE guibg=#2d4f67 gui=NONE cterm=NONE
+hi PmenuSbar guifg=NONE guibg=#697287 gui=NONE cterm=NONE
+hi PmenuThumb guifg=NONE guibg=#8992a7 gui=NONE cterm=NONE
+hi PmenuExtra guifg=#dcd7ba guibg=#363646 gui=NONE cterm=NONE
+hi PmenuExtraSel guifg=NONE guibg=#545464 gui=NONE cterm=NONE
+hi PmenuKind guifg=#dcd7ba guibg=#43436c gui=NONE cterm=NONE
+hi PmenuKindSel guifg=NONE guibg=#54546d gui=NONE cterm=NONE
 hi QuickFixLine guifg=NONE guibg=#2a2a37 gui=NONE cterm=NONE
 hi Search guifg=#dcd7ba guibg=#2d4f67 gui=NONE cterm=NONE
 hi SignColumn guifg=#938aa9 guibg=#282727 gui=NONE cterm=NONE
@@ -265,9 +265,13 @@ hi ModeMsg ctermfg=215 ctermbg=NONE cterm=bold
 hi MoreMsg ctermfg=66 ctermbg=NONE cterm=NONE
 hi NonText ctermfg=59 ctermbg=NONE cterm=NONE
 hi Pmenu ctermfg=187 ctermbg=236 cterm=NONE
-hi PmenuSbar ctermfg=NONE ctermbg=236 cterm=NONE
 hi PmenuSel ctermfg=NONE ctermbg=24 cterm=NONE
-hi PmenuThumb ctermfg=NONE ctermbg=24 cterm=NONE
+hi PmenuSbar ctermfg=NONE ctermbg=243 cterm=NONE
+hi PmenuThumb ctermfg=NONE ctermbg=103 cterm=NONE
+hi PmenuExtra ctermfg=187 ctermbg=237 cterm=NONE
+hi PmenuExtraSel ctermfg=NONE ctermbg=240 cterm=NONE
+hi PmenuKind ctermfg=187 ctermbg=60 cterm=NONE
+hi PmenuKindSel ctermfg=NONE ctermbg=60 cterm=NONE
 hi QuickFixLine ctermfg=NONE ctermbg=236 cterm=NONE
 hi Search ctermfg=187 ctermbg=24 cterm=NONE
 hi SignColumn ctermfg=103 ctermbg=235 cterm=NONE

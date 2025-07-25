@@ -30,10 +30,6 @@ Label             -> Statement
 LineNrAbove       -> LineNr
 LineNrBelow       -> LineNr
 MessageWindow     -> WarningMsg
-PmenuKind         -> Pmenu
-PmenuKindSel      -> PmenuSel
-PmenuExtra        -> Pmenu
-PmenuExtraSel     -> PmenuSel
 PopupNotification -> WarningMsg
 PopupSelected     -> PmenuSel
 PreCondit         -> PreProc
@@ -116,9 +112,13 @@ ModeMsg              roninYellow       none              bold
 MoreMsg              dragonBlue        none
 NonText              dragonBlack6      none
 Pmenu                fujiWhite         waveBlue1
-PmenuSbar            none              waveBlue1
 PmenuSel             none              waveBlue2
-PmenuThumb           none              waveBlue2
+PmenuSbar            none              dragonViolet2
+PmenuThumb           none              dragonViolet
+PmenuExtra           fujiWhite         sumiInk5
+PmenuExtraSel        none              lotusInk1
+PmenuKind            fujiWhite         lotusInk2
+PmenuKindSel         none              sumiInk6
 QuickFixLine         none              sumiInk4
 Search               fujiWhite         waveBlue2
 SignColumn           springViolet1     dragonBlack4
