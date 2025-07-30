@@ -99,7 +99,7 @@ hi Directory guifg=#7e9cd8 guibg=NONE gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#1f1f28 guibg=NONE gui=NONE cterm=NONE
 hi ErrorMsg guifg=#e82424 guibg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=#625e5a guibg=#282727 gui=NONE cterm=NONE
-hi Folded guifg=#957fb8 guibg=NONE gui=reverse cterm=reverse
+hi Folded guifg=#dcd7ba guibg=NONE gui=bold,underline cterm=bold,underline
 hi IncSearch guifg=#223249 guibg=#ff9e3b gui=NONE cterm=NONE
 hi LineNr guifg=#7a8382 guibg=#282727 gui=NONE cterm=NONE
 hi MatchParen guifg=#ff5d62 guibg=NONE gui=bold,underline cterm=bold,underline
@@ -259,7 +259,7 @@ hi Directory ctermfg=111 ctermbg=NONE cterm=NONE
 hi EndOfBuffer ctermfg=234 ctermbg=NONE cterm=NONE
 hi ErrorMsg ctermfg=196 ctermbg=NONE cterm=NONE
 hi FoldColumn ctermfg=59 ctermbg=235 cterm=NONE
-hi Folded ctermfg=104 ctermbg=NONE cterm=reverse
+hi Folded ctermfg=187 ctermbg=NONE cterm=bold,underline
 hi IncSearch ctermfg=236 ctermbg=215 cterm=NONE
 hi LineNr ctermfg=244 ctermbg=235 cterm=NONE
 hi MatchParen ctermfg=203 ctermbg=NONE cterm=bold,underline

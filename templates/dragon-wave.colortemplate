@@ -104,7 +104,7 @@ Directory            crystalBlue       none
 EndOfBuffer          sumiInk3          none
 ErrorMsg             samuraiRed        none
 FoldColumn           dragonBlack6      dragonBlack4
-Folded               oniViolet         none              reverse
+Folded               fujiWhite         none              bold
 IncSearch            waveBlue1         roninYellow
 LineNr               dragonGray3       dragonBlack4
 MatchParen           peachRed          none              bold underline
