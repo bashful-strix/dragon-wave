@@ -32,13 +32,11 @@ LineNrBelow       -> LineNr
 MessageWindow     -> WarningMsg
 PopupNotification -> WarningMsg
 PopupSelected     -> PmenuSel
-PreCondit         -> PreProc
 Question          -> MoreMsg
 Repeat            -> Statement
 SpecialChar       -> Special
 StatusLineTerm    -> StatusLine
 StatusLineTermNC  -> StatusLineNC
-StorageClass      -> Type
 Structure         -> Type
 Typedef           -> Type
 VisualNOS         -> Visual
@@ -153,13 +151,15 @@ Function             autumnYellow      none
 Identifier           carpYellow        none
 Include              dragonViolet2     none
 Keyword              dragonRed         none
-Macro                dragonOrange      none
+Macro                lotusTeal1        none
 Number               sakuraPink        none
 Operator             lotusOrange       none
 PreProc              lotusRed2         none
+PreCondit            dragonOrange      none
 Special              waveAqua4         none
 SpecialComment       dragonAsh         none              italic
 Statement            boatYellow2       none
+StorageClass         lotusTeal3        none
 String               springGreen       none
 Tag                  waveAqua2         none
 Todo                 waveBlue1         dragonBlue        bold
@@ -245,12 +245,12 @@ if get(g:, 'dragon_wave_extend_ts', has('nvim'))
   hi! link @field                 Normal
   hi! link @punctuation.delimiter SpecialKey
   hi! link @punctuation.special   Operator
-  hi! link @variable.builtin      Macro
-  hi! link @function.builtin      Macro
-  hi! link @constant.macro        Macro
-  hi! link @function.macro        Macro
+  hi! link @variable.builtin      PreCondit
+  hi! link @function.builtin      PreCondit
+  hi! link @constant.macro        PreCondit
+  hi! link @function.macro        PreCondit
   hi! link @keyword.return        Operator
-  hi! link @tag.builtin           Macro  
+  hi! link @tag.builtin           Macro
   hi! link @tag.delimiter         PreProc
   hi! link @tag.attribute         Define 
   hi! link @variable              Identifier
@@ -258,6 +258,7 @@ if get(g:, 'dragon_wave_extend_ts', has('nvim'))
   hi! link @exception             Exception
   hi! link @keyword.coroutine     PreProc  
   hi! link @comment.documentation SpecialComment
+  hi! link @keyword.debug         StorageClass
 
   hi! link @keyword.import        @include
   hi! link @keyword.conditional   @conditional

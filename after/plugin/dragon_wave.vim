@@ -7,12 +7,12 @@ if get(g:, 'dragon_wave_extend_ts', has('nvim'))
   hi! link @field                 Normal
   hi! link @punctuation.delimiter SpecialKey
   hi! link @punctuation.special   Operator
-  hi! link @variable.builtin      Macro
-  hi! link @function.builtin      Macro
-  hi! link @constant.macro        Macro
-  hi! link @function.macro        Macro
+  hi! link @variable.builtin      PreCondit
+  hi! link @function.builtin      PreCondit
+  hi! link @constant.macro        PreCondit
+  hi! link @function.macro        PreCondit
   hi! link @keyword.return        Operator
-  hi! link @tag.builtin           Macro  
+  hi! link @tag.builtin           Macro
   hi! link @tag.delimiter         PreProc
   hi! link @tag.attribute         Define 
   hi! link @variable              Identifier
@@ -20,6 +20,7 @@ if get(g:, 'dragon_wave_extend_ts', has('nvim'))
   hi! link @exception             Exception
   hi! link @keyword.coroutine     PreProc  
   hi! link @comment.documentation SpecialComment
+  hi! link @keyword.debug         StorageClass
 
   hi! link @keyword.import        @include
   hi! link @keyword.conditional   @conditional
